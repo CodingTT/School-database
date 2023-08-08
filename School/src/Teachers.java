@@ -1,0 +1,30 @@
+
+    class Teacher {
+        private final String firstName;
+        private final String lastName;
+        private final String subject;
+
+        public Teacher(String firstName, String lastName, String subject) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.subject = subject;
+        }
+
+        public String toString() {
+            return "Name: " + firstName + " " + lastName + " Subject: " + subject;
+        }
+
+        public String getFirstName() {
+            return firstName;
+        }
+
+        public String getLastName() {
+            return lastName;
+        }
+
+        public String getSubject() {
+            return subject;
+        }
+    }
+
+
